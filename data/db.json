@@ -1,0 +1,413 @@
+{
+  "$schema": "./node_modules/json-server/schema.json",
+  "meta": {
+    "brandName": "Bookmarks",
+    "tagline": "YOUR PERSONAL HUB",
+    "creatorName": "Vinoth",
+    "creatorInitial": "V",
+    "defaultTheme": "light",
+    "sensitivePasswordHash": "sha256:925b0be382ade40cd89eeaee88d7367e2e513e430d17a105d1bc6ac68d537f4c"
+  },
+  "folders": [
+    {
+      "id": "tri",
+      "label": "Trident-sqa",
+      "palette": 2,
+      "items": [
+        {
+          "name": "greytHR Portal",
+          "url": "https://tsqa1.greythr.com/v3/portal/ess/home",
+          "format": "uri"
+        },
+        {
+          "name": "Efficitrack",
+          "url": "https://efficitrack.ittrident.com/",
+          "format": "uri"
+        },
+        {
+          "name": "Trident API Client",
+          "url": "http://192.168.20.25:3001/login",
+          "format": "uri"
+        },
+        {
+          "name": "IT Help Desk",
+          "url": "https://ittridentsqa.sharepoint.com/sites/Home_page/SitePages/IT-Help-Desk.aspx?isSPOFile=1&xsdata=MDV8MDJ8fDA5YWQ3N2VjODNmZjQ3MzVjMDEyMDhkZTg0ZWYxYzhlfDA1OTIyN2FmZGJmZjQ3NTliMmMzOGU3ZTc5NDVmY2RifDB8MHw2MzkwOTQzNTk2NDQzNjA3NDh8VW5rbm93bnxWR1ZoYlhOVFpXTjFjbWwwZVZObGNuWnBZMlY4ZXlKRFFTSTZJbFJsWVcxelgwRlVVRk5sY25acFkyVmZVMUJQVEU5R0lpd2lWaUk2SWpBdU1DNHdNREF3SWl3aVVDSTZJbGRwYmpNeUlpd2lRVTRpT2lKUGRHaGxjaUlzSWxkVUlqb3hNWDA9fDF8TDJOb1lYUnpMekU1T21JMlltSTNaR1prTFRSak5UVXROREk0TlMwNE0yTTNMVGt3TkdSaVpEZGlPR1ZpTUY5ak16TXdNbVJrT0MxbU1UY3dMVFF5WWpBdE9EUXdPUzAwTnpGaU5XWXdOakprT0dGQWRXNXhMbWRpYkM1emNHRmpaWE12YldWemMyRm5aWE12TVRjM016Z3pPVEUyTWpZMU1RPT18NDFjYzQ4ZTBiZmE3NDQ4NTQxY2EwOGRlODRlZjFjOGV8YjEzM2RkZDAzNzEwNGE5Zjk3NmJlNzEyMGFmY2ZhYmU%3D&sdata=ZzVLazVaWllERy9NdWxXUlVWU2lhSGRETFY2WGd1UGdJMm5mN2N4NDJVaz0%3D&ovuser=059227af-dbff-4759-b2c3-8e7e7945fcdb%2Cvinoth.raman%40tridentsqa.com&OR=Teams-HL&CT=1773839139856&clickparams=eyJBcHBOYW1lIjoiVGVhbXMtRGVza3RvcCIsIkFwcFZlcnNpb24iOiI1MC8yNjAyMTIxNTEyMyJ9",
+          "format": "uri"
+        }
+      ],
+      "group": "Bookmarks",
+      "showInAllBookmarks": true
+    },
+    {
+      "id": "gx",
+      "label": "GX – GlobalX Air",
+      "palette": 4,
+      "subfolders": [
+        {
+          "label": "NOC",
+          "tag": "NOC",
+          "items": [
+            {
+              "name": "N-OC Web (UAT)",
+              "url": "https://gxa-uat.noc.vmc.navblue.cloud/Raido/Default.aspx",
+              "format": "uri"
+            },
+            {
+              "name": "N-OC Web (PROD)",
+              "url": "https://gxa.noc.vmc.navblue.cloud/Raido/Default.aspx",
+              "format": "uri"
+            }
+          ]
+        },
+        {
+          "label": "AC",
+          "tag": "AirlineChoice",
+          "items": [
+            {
+              "name": "Airline-choice – RDWeb",
+              "url": "https://app.airline-choice.com/RDWeb/webclient/",
+              "format": "uri"
+            }
+          ]
+        },
+        {
+          "label": "Redis Data Test Client",
+          "tag": "Redis",
+          "items": [
+            {
+              "name": "Redis Data Test Client",
+              "url": "https://redis-data-test-clie-7x3a.bolt.host/",
+              "format": "uri"
+            }
+          ]
+        },
+        {
+          "label": "CCIT - Crew Check-In Tracker",
+          "tag": "CCIT",
+          "items": [
+            {
+              "name": "Crew Check-In Tracker (UAT)",
+              "url": "https://dev-crewtracker.globalxair.com/",
+              "format": "uri"
+            },
+            {
+              "name": "Crew Check-In Tracker (PROD)",
+              "url": "https://crewtracker.globalxair.com/",
+              "format": "uri"
+            }
+          ]
+        },
+        {
+          "label": "OTP Dashboard",
+          "tag": "OTP",
+          "items": [
+            {
+              "name": "OTP Dashboard (UAT)",
+              "url": "https://dev-otp.globalxair.com/",
+              "format": "uri"
+            },
+            {
+              "name": "OTP Dashboard (PROD)",
+              "url": "https://otp-dashboard.globalxair.com/",
+              "format": "uri"
+            }
+          ]
+        },
+        {
+          "label": "FISS",
+          "tag": "FISS",
+          "items": [
+            {
+              "name": "FISS – Fleet Status (UAT)",
+              "url": "https://dev-fiss.globalxair.com/fleet-status",
+              "format": "uri"
+            },
+            {
+              "name": "FISS – Fleet Status (PROD)",
+              "url": "https://fiss.globalxair.com/fleet-status",
+              "format": "uri"
+            }
+          ]
+        },
+        {
+          "label": "Tail Assignments",
+          "tag": "TAIL",
+          "items": [
+            {
+              "name": "Tail Assignment (UAT)",
+              "url": "https://dev-tailassignment.globalxair.com/",
+              "format": "uri"
+            },
+            {
+              "name": "Tail Assignment (PROD)",
+              "url": "https://tailassignment.globalxair.com/",
+              "format": "uri"
+            }
+          ]
+        },
+        {
+          "label": "OpsConnex",
+          "tag": "OpsConnex",
+          "items": [
+            {
+              "name": "OpsConnex - Web (UAT)",
+              "url": "https://dev-opsconnex.globalxair.com/",
+              "format": "uri"
+            }
+          ]
+        },
+        {
+          "label": "FIDS",
+          "tag": "FIDS",
+          "items": [
+            {
+              "name": "FIDS (UAT)",
+              "url": "https://dev-fids.globalxair.com/",
+              "format": "uri"
+            },
+            {
+              "name": "FIDS (PROD)",
+              "url": "https://fids.globalxair.com/",
+              "format": "uri"
+            }
+          ]
+        },
+        {
+          "label": "XFI",
+          "tag": "XFI",
+          "items": [
+            {
+              "name": "XFI (UAT)",
+              "url": "https://dev-xfi.globalxair.com/",
+              "format": "uri"
+            },
+            {
+              "name": "XFI (PROD)",
+              "url": "https://xfi.globalxair.com/",
+              "format": "uri"
+            }
+          ]
+        },
+        {
+          "label": "IBS",
+          "tag": "IBS",
+          "items": [
+            {
+              "name": "IBS GlobalX Air (UAT)",
+              "url": "https://dev-ibs.globalxair.com/",
+              "format": "uri"
+            },
+            {
+              "name": "IBS GlobalX Air (PROD)",
+              "url": "https://ibs.globalxair.com/",
+              "format": "uri"
+            }
+          ]
+        },
+        {
+          "label": "Jump Seat",
+          "tag": "JSEAT",
+          "items": [
+            {
+              "name": "Staff Travel - Jump Seat (UAT)",
+              "url": "https://dev-stafftravel.globalxair.com/",
+              "format": "uri"
+            },
+            {
+              "name": "Staff Travel - Jump Seat (PROD)",
+              "url": "https://stafftravel.globalxair.com/",
+              "format": "uri"
+            }
+          ]
+        },
+        {
+          "label": "GBX Passenger Count",
+          "tag": "GBX",
+          "items": [
+            {
+              "name": "Passengers Count (UAT)",
+              "url": "https://dev-passengers-count.globalxair.com/",
+              "format": "uri"
+            },
+            {
+              "name": "Passengers Count (PROD)",
+              "url": "https://passengers-count.globalxair.com/",
+              "format": "uri"
+            }
+          ]
+        },
+        {
+          "label": "Cargo Connex",
+          "tag": "CC",
+          "items": [
+            {
+              "name": "Cargo Connex Admin",
+              "url": "https://admin.cargo-connex.com/",
+              "format": "uri"
+            }
+          ]
+        },
+        {
+          "label": "Can We 6.0",
+          "tag": "CANWE",
+          "items": [
+            {
+              "name": "Can We 6.0 – Power Apps",
+              "url": "https://apps.powerapps.com/play/e/900c6630-400e-ecaa-a73b-ffb07a81ba08/a/8b5020b8-77ff-41e9-832d-ff43d59f1b90?tenantId=dcc1fa0d-6a4b-43e7-85da-49c01455e0b5",
+              "format": "uri"
+            },
+            {
+              "name": "People and Groups",
+              "url": "https://globalxair.sharepoint.com/sites/CANWE-EmailCommunication/_layouts/15/people.aspx?MembershipGroupId=223",
+              "format": "uri"
+            }
+          ]
+        }
+      ],
+      "group": "Bookmarks",
+      "showInAllBookmarks": true
+    },
+    {
+      "id": "dtmi",
+      "label": "D-Tools Mobile Install",
+      "palette": 0,
+      "items": [
+        {
+          "name": "Mobile Install",
+          "url": "https://mobile.d-tools.com/",
+          "format": "uri"
+        },
+        {
+          "name": "Mobile Install – beta",
+          "url": "https://mobileinstallbeta.d-tools.com/",
+          "format": "uri"
+        },
+        {
+          "name": "D-tools-mi Swagger UI",
+          "url": "https://mobileapi.d-tools.com/api/swagger/index.html",
+          "format": "uri"
+        },
+        {
+          "name": "D-tools MI Dev Azure",
+          "url": "https://dev.azure.com/dtools/MIApp",
+          "format": "uri"
+        }
+      ],
+      "group": "Bookmarks",
+      "showInAllBookmarks": true
+    },
+    {
+      "id": "HKM",
+      "label": "HKM - Hare Krishna Management",
+      "palette": 2,
+      "items": [
+        {
+          "name": "HKM (UAT) ",
+          "url": "https://volunteer-dev.tridentdropship.com/",
+          "format": "uri"
+        },
+        {
+          "name": "HKM (PROD) ",
+          "url": "https://hkm.tridentdropship.com/",
+          "format": "uri"
+        }
+      ],
+      "group": "Bookmarks",
+      "showInAllBookmarks": true
+    },
+    {
+      "id": "Deployment",
+      "label": "Deployment & Jira Bookmarks",
+      "palette": 7,
+      "subfolders": [
+        {
+          "label": "Common Bookmarks",
+          "tag": "CB",
+          "items": [
+            {
+              "name": "Azure Portal",
+              "url": "https://portal.azure.com/#home",
+              "format": "uri"
+            },
+            {
+              "name": "Jira – For You (GlobalX Air)",
+              "url": "https://globalxair.atlassian.net/jira/for-you",
+              "format": "uri"
+            },
+            {
+              "name": "Outlook Web App",
+              "url": "https://outlook.cloud.microsoft/mail/",
+              "format": "uri"
+            }
+          ]
+        },
+        {
+          "label": "Development Needs",
+          "tag": "DEV",
+          "items": [
+            {
+              "name": "App Store Connect",
+              "url": "https://appstoreconnect.apple.com/",
+              "format": "uri"
+            },
+            {
+              "name": "Google Play Console",
+              "url": "https://play.google.com/console/u/0/developers/7946338409711675972/app-list?onboardingflow=signup",
+              "format": "uri"
+            },
+            {
+              "name": "GitHub – GlobalX Air",
+              "url": "https://github.com/Global-X",
+              "format": "uri"
+            },
+            {
+              "name": "GitHub – TridentSQA",
+              "url": "https://github.com/TridentSQA",
+              "format": "uri"
+            }
+          ]
+        }
+      ],
+      "group": "Deployment Bookmarks",
+      "showInAllBookmarks": true
+    },
+    {
+      "id": "drv",
+      "label": "Driver Bookmarks",
+      "palette": 0,
+      "subfolders": [
+        {
+          "label": "GX Presentation",
+          "tag": "GX-PPT",
+          "isSensitive": true,
+          "items": [
+            {
+              "name": "GX projects- presentations",
+              "url": "https://outlook.cloud.microsoft/host/377c982d-9686-450e-9a7c-22aeaf1bc162/7211f19f-262a-42eb-a02e-289956491741",
+              "format": "uri"
+            }
+          ]
+        }
+      ],
+      "group": "Drivers",
+      "showInAllBookmarks": true
+    },
+    {
+      "id": "kt",
+      "label": "GX KT Sessions",
+      "palette": 6,
+      "group": "KT Sessions",
+      "items": [],
+      "showInAllBookmarks": true
+    },
+    {
+      "id": "env",
+      "label": "GX Environments",
+      "palette": 7,
+      "group": "Environments",
+      "isSensitive": true,
+      "items": [],
+      "showInAllBookmarks": false
+    }
+  ]
+}
