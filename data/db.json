@@ -283,11 +283,6 @@
           "format": "uri"
         },
         {
-          "name": "D-tools-mi Swagger UI",
-          "url": "https://mobileapi.d-tools.com/api/swagger/index.html",
-          "format": "uri"
-        },
-        {
           "name": "D-tools MI Dev Azure",
           "url": "https://dev.azure.com/dtools/MIApp",
           "format": "uri"
@@ -316,6 +311,42 @@
       "showInAllBookmarks": true
     },
     {
+      "id": "swagger",
+      "label": "Swagger UIs",
+      "palette": 6,
+      "group": "Swagger UIs",
+      "subfolders": [
+        {
+          "label": "GX Air - Swagger UIs",
+          "tag": "GX-SWAGGER",
+          "items": [
+            {
+              "name": "N-OC",
+              "url": "https://gxa-uat.noc.vmc.navblue.cloud/RestAPI/swagger/ui/index",
+              "format": "uri"
+            },
+            {
+              "name": "Airline-choice",
+              "url": "https://api.airline-choice.com/rest/swagger/ui/index",
+              "format": "uri"
+            }
+          ]
+        },
+        {
+          "label": "D-Tools",
+          "tag": "DT-SWAGGER",
+          "items": [
+            {
+              "name": "D-tools-mi Swagger UI",
+              "url": "https://mobileapi.d-tools.com/api/swagger/index.html",
+              "format": "uri"
+            }
+          ]
+        }
+      ],
+      "showInAllBookmarks": true
+    },
+    {
       "id": "Deployment",
       "label": "Deployment & Jira Bookmarks",
       "palette": 7,
@@ -324,6 +355,11 @@
           "label": "Common Bookmarks",
           "tag": "CB",
           "items": [
+            {
+              "name": "GlobalX Air AWS Console",
+              "url": "https://globalxair.awsapps.com/start/#/?tab=accounts",
+              "format": "uri"
+            },
             {
               "name": "Azure Portal",
               "url": "https://portal.azure.com/#home",
@@ -406,7 +442,13 @@
       "palette": 7,
       "group": "Environments",
       "isSensitive": true,
-      "items": [],
+      "items": [
+        {
+          "name": "Xacyscore and internal keys",
+          "url": "https://ittridentsqa-my.sharepoint.com/:x:/r/personal/vinoth_raman_tridentsqa_com/Documents/GX%20-%20Globalx%20Air/Xacyscore%20and%20internal%20keys.xlsx?d=wae7126e91988449683e0b3b39680ebe9&csf=1&web=1&e=nkaEpo",
+          "format": "uri"
+        }
+      ],
       "showInAllBookmarks": false
     }
   ]
